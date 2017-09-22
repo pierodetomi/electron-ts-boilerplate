@@ -1,45 +1,45 @@
-# electron-quick-start
+# Electron TypeScript Boilerplate
 
-**Clone and run for a quick way to see Electron in action.**
+This simple project just gives you a clean start for the development of an Electron based application with AngularJS.
 
-This is a minimal Electron application based on the [Quick Start Guide](http://electron.atom.io/docs/tutorial/quick-start) within the Electron documentation.
 
-**Use this app along with the [Electron API Demos](http://electron.atom.io/#get-started) app for API code examples to help you get started.**
+## Dependencies
 
-A basic Electron application needs just these files:
+This project uses:
 
-- `package.json` - Points to the app's main file and lists its details and dependencies.
-- `main.js` - Starts the app and creates a browser window to render HTML. This is the app's **main process**.
-- `index.html` - A web page to render. This is the app's **renderer process**.
+- Electron (platform)
+- AngularJS (frontend framework)
+- Browserify (bundling)
 
-You can learn more about each of these components within the [Quick Start Guide](http://electron.atom.io/docs/tutorial/quick-start).
-
-## To Use
-
-To clone and run this repository you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+Before running, be sure to download the required dependencies with the following command:
 
 ```bash
-# Clone this repository
-git clone https://github.com/electron/electron-quick-start
-# Go into the repository
-cd electron-quick-start
-# Install dependencies
 npm install
-# Run the app
+```
+
+
+## Build
+
+Once installed all dependencies, you can build the project with [VisualStudio Code](https://code.visualstudio.com/), using the shortcut **CTRL + SHIFT + B**.
+
+
+## Run
+
+Now you can run the app
+
+```bash
 npm start
 ```
 
-Note: If you're using Linux Bash for Windows, [see this guide](https://www.howtogeek.com/261575/how-to-run-graphical-linux-desktop-applications-from-windows-10s-bash-shell/) or use `node` from the command prompt.
+directly from the integrated terminal in VisualStudio Code or from a separated terminal window.
 
-## Resources for Learning Electron
 
-- [electron.atom.io/docs](http://electron.atom.io/docs) - all of Electron's documentation
-- [electron.atom.io/community/#boilerplates](http://electron.atom.io/community/#boilerplates) - sample starter apps created by the community
-- [electron/electron-quick-start](https://github.com/electron/electron-quick-start) - a very basic starter Electron app
-- [electron/simple-samples](https://github.com/electron/simple-samples) - small applications with ideas for taking them further
-- [electron/electron-api-demos](https://github.com/electron/electron-api-demos) - an Electron app that teaches you how to use Electron
-- [hokein/electron-sample-apps](https://github.com/hokein/electron-sample-apps) - small demo apps for the various Electron APIs
+## Development
+
+All the development must be done inside the **./src** folder.
+When compiling, all necessary files will be compiled, bundled and/or copied to the **./app** folder.
+The project has been started using VisualStudio Code (as you can see by the folder **.vscode** in the repo), but whatever IDE can be used to develop starting from this boilerplate project.
 
 ## License
 
-[CC0 1.0 (Public Domain)](LICENSE.md)
+[MIT License](LICENSE.md)
